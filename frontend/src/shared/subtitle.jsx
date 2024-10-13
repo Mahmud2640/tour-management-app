@@ -1,7 +1,7 @@
 import React from "react";
 
-const subtitle = ({ subtitle }) => {
-  return <h3 classname="section___subtitle">{subtitle}</h3>;
+const Subtitle = ({ subtitle }) => {
+  return <h3 className="section_subtitle">{subtitle}</h3>;
 };
 
-export default subtitle;
+export default Subtitle;
