@@ -8,7 +8,7 @@ import Subtitle from "../shared/Subtitle";
 import "../styles/home.css";
 import SearchBar from "../shared/SearchBar";
 import ServiceList from "../services/ServiceList";
-
+import FeaturedTourList from "../components/Featured-tours/FeaturedTourList"
 const Home = () => {
   return (
     <>
@@ -57,7 +57,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="3">
-              <h5 className="services_subtitle">What we serve</h5>
+              <h5 className="service_subtitle">What we serve</h5>
               <h2 className="service_title">We offer our best service</h2>
               <p>Explore the most popular destinations</p>
             </Col>
@@ -74,6 +74,7 @@ const Home = () => {
               <Subtitle subtitle={"Explore"} />
               <h2 className="featured_tour-title">Our Featured Tours</h2>
             </Col>
+            <FeaturedTourList />
           </Row>
         </Container>
       </section>

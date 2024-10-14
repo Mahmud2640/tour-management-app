@@ -28,7 +28,7 @@ const Header = () => {
                   <li className="nav_item" key={index}>
                     <NavLink
                       to={item.path}
-                      className= {(navClass=> navClass. isActive ? 'active__link' : "")
+                      className= {(navClass=> navClass.isActive ? 'active__link' : "")
                       }
                     >
                       {item.display}
@@ -50,7 +50,7 @@ const Header = () => {
               </div>
 
               <span className="mobile_menu">
-                <i class="ri-menu-line"></i>
+                <i className="ri-menu-line"></i>
               </span>
             </div>
           </div>
