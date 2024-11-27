@@ -68,7 +68,7 @@
 .card_bottom h5 span {
   font-weight: 500;
   color: var(--text-color);
-  font-size: 0rem;
+  font-size: 0.8rem;
 }
 
 .booking_btn {

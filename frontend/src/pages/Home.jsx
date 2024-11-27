@@ -8,7 +8,7 @@ import Subtitle from "../shared/Subtitle";
 import "../styles/home.css";
 import SearchBar from "../shared/SearchBar";
 import ServiceList from "../services/ServiceList";
-import FeaturedTourList from "../components/Featured-tours/FeaturedTourList"
+import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 const Home = () => {
   return (
     <>
@@ -79,6 +79,48 @@ const Home = () => {
         </Container>
       </section>
       {/*====================  featured tour end ====================*/}
+
+      {/*====================  experience section start ====================*/}
+      <section>
+        <Container>
+          <Row>
+            <Col lg="6">
+              <div className="experience_content">
+                <Subtitle subtitle={"Experience"} />
+
+                <h2>
+                  With our all experience <br /> we will serve you
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  <br />
+                  Nobis provident iure recusandae beatae magnam, incidunt ad
+                  impedit hic nam vitae labore molestiae. Sequi quibusdam nihil
+                  obcaecati nulla tenetur dolore aliquam!
+                </p>
+              </div>
+              <div className="counter_wrapper d-flex align-items-center gap-5">
+                <div className="counter_box">
+                  <span>12k+</span>
+                  <h6>Successfull Trip</h6>
+                </div>
+
+                <div className="counter_box">
+                  <span>12k+</span>
+                  <h6>Regular clients</h6>
+                </div>
+
+                <div className="counter_box">
+                  <span>15</span>
+                  <h6>Years experience</h6>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      {/*====================  experience section end ====================*/}
     </>
   );
 };
